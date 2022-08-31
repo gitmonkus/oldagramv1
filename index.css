@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 500px;
+    position: relative;
+}
+
+section {
+    border-bottom: 2rem solid #EDEDED;
+}
+
+header {
+   display: flex;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 500px;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #D4D4D4;
+}
+
+.logo {
+    max-width: 150px;
+    margin-right: 17rem;
+}
+.avatar {
+    max-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+}
+
+.first-title {
+    display: flex;
+    align-items: center;
+    margin: 7.5rem 0 1rem 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+
+
+.avatar-img {
+    margin: 0 1rem;
+}
+
+.title p,
+.first-title p {
+    margin: 0;
+}
+.title span,
+.first-title span {
+    font-weight: bold;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-left: 1rem;
+}
+
+footer img {
+    max-width: 40px;
+    margin-right: 1rem;
+}
+
+footer img:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.bold {
+    font-weight: bold;
+}
